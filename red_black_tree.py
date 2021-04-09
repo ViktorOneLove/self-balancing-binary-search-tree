@@ -107,7 +107,6 @@ class RedBlackTree:
                         self._left_rotation(parent)
                         node = parent
                         parent = node.parent
-                    # Case : 3
                     # node is left child of its parent
                     # right-rotation required
                     else:
