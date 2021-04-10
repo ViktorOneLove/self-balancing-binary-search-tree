@@ -1,4 +1,4 @@
-from time_measurement import countTime
+from time_measurement import count_time
 from red_black_tree import RedBlackTree
 
 
