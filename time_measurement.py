@@ -4,7 +4,14 @@ import time
 import matplotlib.pyplot as plt
 
 
-def countTime():
+def count_time():
+    """
+    Count time of insertion and searching 
+    
+    Plot graphics
+    
+    :return: void
+    """
     repetitions = 1000
     num_of_max_elements = 500
     min_possible_value = -100000
